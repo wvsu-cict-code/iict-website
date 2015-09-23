@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/bg.jpg');
+  background-image: url('images/bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   /* FIXME: Temp. workaround for vertical scrollbars */
@@ -7,7 +7,7 @@ body {
 }
 
 body::before {
-    /*background-image: url('../images/head.jpg');*/
+    background-image: url('/images/head.jpg');
     background-size: cover;
     background-attachment: fixed;
     content: '';
@@ -39,7 +39,7 @@ body .iict-site {
 }
 
 .iict-site.mdl-layout .mdl-layout__content {
-  padding-top: 100px;
+  padding-top: 230px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
@@ -180,25 +180,41 @@ body .iict-site {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.iict-site.is-small-screen .iict-site__posts > .mdl-card.iict-pic {
+.iict-site.is-small-screen .iict-site__posts > .mdl-card.coffee-pic {
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
 }
-.iict-site.is-small-screen .iict-site__posts > .mdl-card.acad-programs--card {
+.iict-site.is-small-screen .iict-site__posts > .mdl-card.something-else {
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
       -ms-flex-order: -1;
           order: -1;
 }
-.iict-site .iict-pic .mdl-card__media {
-  background-image: url('../images/iict.jpg');
+.iict-site .coffee-pic .mdl-card__media {
+  background-image: url('images/coffee.jpg');
 }
-.iict-site .acad-programs--card .mdl-card__media {
-  background-image: url('../images/model_01.png');
+.iict-site .something-else .mdl-card__media {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.iict-site .acad-programs--card > button {
+.iict-site .something-else > button {
   position: absolute;
   top: 0;
   right: 28px;
@@ -206,18 +222,18 @@ body .iict-site {
       -ms-transform: translate(0px, -28px);
           transform: translate(0px, -28px);
 }
-.iict-site .acad-programs--card .mdl-card__media {
+.iict-site .something-else .mdl-card__media {
   font-size: 13px;
   font-weight: 500;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
-.iict-site .acad-programs--card .mdl-card__media img {
+.iict-site .something-else .mdl-card__media img {
   width: 64px;
   height: 64px;
-  /*margin-bottom: 10px;*/
+  margin-bottom: 10px;
 }
-.iict-site .acad-programs--card .mdl-card__supporting-text {
+.iict-site .something-else .mdl-card__supporting-text {
   background-color: #F5F5F5;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -228,7 +244,7 @@ body .iict-site {
 .iict-site .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }
-.iict-site .iict-site__posts > .iict-nav {
+.iict-site .iict-site__posts > .demo-nav {
   margin: 12px 15px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -250,18 +266,18 @@ body .iict-site {
   color: white;
   font-weight: 500;
 }
-.iict-site .iict-site__posts > .iict-nav > .iict-nav__button {
+.iict-site .iict-site__posts > .demo-nav > .demo-nav__button {
   color: white;
   text-decoration: none;
 }
-.iict-site .iict-site__posts > .iict-nav .mdl-button {
+.iict-site .iict-site__posts > .demo-nav .mdl-button {
   color: rgba(0,0,0,0.54);
   background-color: white;
 }
-.iict-site .iict-site__posts > .iict-nav > .iict-nav__button:first-child .mdl-button {
+.iict-site .iict-site__posts > .demo-nav > .demo-nav__button:first-child .mdl-button {
   margin-right: 16px;
 }
-.iict-site .iict-site__posts > .iict-nav > .iict-nav__button:last-child .mdl-button {
+.iict-site .iict-site__posts > .demo-nav > .demo-nav__button:last-child .mdl-button {
   margin-left: 16px;
 }
 .iict-site .mdl-card > a {
@@ -458,7 +474,7 @@ body .iict-site {
   padding-left: 48px;
 }
 
-.iict-site--blogpost .iict-back {
+.iict-site--blogpost .demo-back {
   position: absolute;
   top: 16px;
   left: 16px;
@@ -471,7 +487,7 @@ body .iict-site {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.iict-site .acad-programs--card {
+.iict-site .something-else {
   overflow: visible;
   z-index: 10;
 }
@@ -481,10 +497,10 @@ body .iict-site {
 .iict-site .minilogo {
   width: 44px;
   height: 44px;
-  background-image: url('../images/iict-logo.png');
+  background-image: url('images/avatar.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 50%;
   border-radius: 22px;
   background-color: #F5F5F5;
 }
@@ -533,12 +549,4 @@ body .iict-site {
           align-items: center;
   background-color: white;
   box-sizing: border-box;
-}
-
-.dark-gray-text>.mdl-navigation__link {
-  /*color: #333333;*/
-}
-
-.mdl-layout__header{
-  background-color: #323232;
 }
