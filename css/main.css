@@ -87,7 +87,6 @@ body .iict-site {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  cursor: pointer;
 }
 .iict-site .mdl-card__media a,
 .iict-site .mdl-card__title a {
@@ -193,10 +192,10 @@ body .iict-site {
           order: -1;
 }
 .iict-site .iict-pic .mdl-card__media {
-  background-image: url('../images/iict.jpg');
+  background-image: url('../images/model_01.png');
 }
 .iict-site .acad-programs--card .mdl-card__media {
-  background-image: url('../images/model_01.png');
+  background-image: url('../images/iict.jpg');
 }
 .iict-site .acad-programs--card > button {
   position: absolute;
@@ -223,7 +222,7 @@ body .iict-site {
   border-bottom-right-radius: 2px;
 }
 .iict-site .on-the-road-again .mdl-card__media {
-  background-image: url('images/road.jpg');
+  background-image: url('../images/road.jpg');
 }
 .iict-site .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
@@ -481,12 +480,12 @@ body .iict-site {
 .iict-site .minilogo {
   width: 44px;
   height: 44px;
-  background-image: url('../images/iict-logo.png');
+  background-image: url('../images/logo.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 50%;
   border-radius: 22px;
-  background-color: #F5F5F5;
+  background-color: #FFAB40;
 }
 
 /* Fixes for IE 10 */
@@ -541,4 +540,8 @@ body .iict-site {
 
 .mdl-layout__header{
   background-color: #323232;
+}
+
+.iict-site .mdl-card h3 a{
+  /*font-weight: 200;*/
 }
