@@ -4,6 +4,10 @@
 
 This site is powered by Jekyll that implements Google's [Material Design Lite (MDL) ](https://github.com/google/material-design-lite) Components.
 
+## Progress Snapshot
+This is the current screen shot of the website.
+![snap_01](snaps/snap_01.png "snapshot")
+
 ## Task List
 * Create pages.
 * Create MDL layout templates for posts and articles.
