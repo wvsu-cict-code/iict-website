@@ -221,8 +221,9 @@ body .iict-site {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.iict-site .on-the-road-again .mdl-card__media {
-  background-image: url('../images/road.jpg');
+.iict-site .acad-programs .mdl-card__media {
+  background-image: url('../images/road_big.jpg');
+  bac
 }
 .iict-site .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
