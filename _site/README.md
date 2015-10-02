@@ -10,6 +10,7 @@ This is the current screen shot of the website.
 
 ## Task List
 * Create pages.
+* Add a favicon.
 * Create MDL layout templates for posts and articles.
 * Populate blog posts.
 * Add Disqus comment hosting service to articles.

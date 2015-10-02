@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   /* FIXME: Temp. workaround for vertical scrollbars */
   margin: 0;
+  background-color: #E5E5E5;
 }
 
 body::before {
@@ -192,7 +193,7 @@ body .iict-site {
           order: -1;
 }
 .iict-site .iict-pic .mdl-card__media {
-  background-image: url('../images/model_01.png');
+  background-image: url('../images/model_01.jpg');
 }
 .iict-site .acad-programs--card .mdl-card__media {
   background-image: url('../images/iict.jpg');
@@ -222,7 +223,7 @@ body .iict-site {
   border-bottom-right-radius: 2px;
 }
 .iict-site .acad-programs .mdl-card__media {
-  background-image: url('../images/road_big.jpg');
+  background-image: url('../images/programs_card_media.jpg');
   bac
 }
 .iict-site .shopping .mdl-card__media {
