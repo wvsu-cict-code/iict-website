@@ -226,6 +226,12 @@ body .iict-site {
   background-image: url('../images/programs_card_media.jpg');
   bac
 }
+
+.iict-site .acad-faculty .mdl-card__media {
+  background-image: url('../images/faculty_card_media.jpg');
+  bac
+}
+
 .iict-site .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }
