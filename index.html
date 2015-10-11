@@ -1,23 +1,72 @@
 ---
 layout: default
 ---
+ <div class="card-pinned mdl-card mdl-cell mdl-cell--8-col mdl-shadow--2d">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Be an IICTzen!</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Prepare for a better future and career.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+<button id="iictzen-share"
+        class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">share</i>
+</button>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+    for="iictzen-share">
+  <li class="mdl-menu__item">Facebook</li>
+  <li class="mdl-menu__item">Twitter</li>
+  <li class="mdl-menu__item">Google Plus</li>
+</ul>
+  </div>
 </div>
+
+<div class="mdl-card card-explore mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+  <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent"><i class="material-icons mdl-color-text--white">pin_drop</i></button>
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Explore</h2>
+  </div>
+  <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+    <div>
+      Take a short tour on our Institute.
+    </div>
+  </div>
+</div>
+
+<div class="mdl-card card-faculty-staff mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Faculty and Staff</h2>
+  </div>
+  <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+    <div>
+      We help shape the future. Meet the pillars of IICT.
+    </div>
+</div>
+  <div class="mdl-card__actions mdl-card--border">
+  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    View
+  </a>
+</div>
+  <div class="mdl-card__menu">
+    <button id="fs-share"
+            class="mdl-button mdl-js-button mdl-button--icon">
+      <i class="material-icons mdl-color-text--white">share</i>
+    </button>
+
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+        for="fs-share">
+      <li class="mdl-menu__item">Facebook</li>
+      <li class="mdl-menu__item">Twitter</li>
+      <li class="mdl-menu__item">Google Plus</li>
+    </ul>
+  </div>
+</div>
+
+<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

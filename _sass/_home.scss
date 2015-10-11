@@ -1,0 +1,11 @@
+.main-layout {
+  background: $home-background
+}
+.main-layout .mdl-layout__header,
+.main-layout .mdl-layout__drawer-button {
+  color:white;
+}
+
+.mdl-layout__header{
+  background-color: $header-color;    
+}
