@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IICT</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Oct 2015 18:56:33 +0800</pubDate>
-    <lastBuildDate>Sat, 10 Oct 2015 18:56:33 +0800</lastBuildDate>
+    <title>Institute of Information and Communications Technology</title>
+    <description>Include description here</description>
+    <link>127.0.0.1/</link>
+    <atom:link href="127.0.0.1/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Oct 2015 14:18:53 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2015 14:18:53 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,9 +26,9 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 18 Sep 2015 03:58:02 +0800</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/09/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/09/18/welcome-to-jekyll.html</guid>
+        <pubDate>Sun, 11 Oct 2015 18:15:51 +0800</pubDate>
+        <link>127.0.0.1/jekyll/update/2015/10/11/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">127.0.0.1/jekyll/update/2015/10/11/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
