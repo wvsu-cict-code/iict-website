@@ -113,6 +113,11 @@ body {
   height: 280px;
   background: url("../images/iict.jpg") center/cover; }
 
+.card-acad-programs > .mdl-card__title {
+  color: #fff;
+  height: 280px;
+  background: url("../images/programs_card_media.jpg") center/cover; }
+
 .card-faculty-staff > .mdl-card__title {
   color: #fff;
   height: 280px;
@@ -160,3 +165,11 @@ body {
   align-items: center;
   background-color: white;
   box-sizing: border-box; }
+
+.explore-icon--center {
+  margin: auto;
+  position: absolute;
+  top: -15%;
+  left: 0;
+  bottom: 0;
+  right: 0; }
